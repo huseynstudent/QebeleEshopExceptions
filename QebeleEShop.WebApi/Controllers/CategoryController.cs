@@ -24,5 +24,11 @@ namespace QebeleEShop.WebApi.Controllers
         {
             return Ok(await Sender.Send(request));
         }
+        [AllowAnonymous]
+        [HttpPut]
+        public async Task<IActionResult> UpdateCategory(UpdateCategoryCommandRequest request)
+        {
+            return Ok(await Sender.Send(request));
+        }
     }
 }

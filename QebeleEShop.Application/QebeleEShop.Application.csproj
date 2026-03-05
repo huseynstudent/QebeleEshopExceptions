@@ -23,6 +23,13 @@
     <Folder Include="CQRS\Auth\Handler\QueryHandler\" />
     <Folder Include="CQRS\Auth\Query\Response\" />
     <Folder Include="CQRS\Auth\Query\Request\" />
+    <Folder Include="CQRS\Products\Command\Response\" />
+    <Folder Include="CQRS\Products\Command\Request\" />
+    <Folder Include="CQRS\Products\Handler\CommandHandler\" />
+    <Folder Include="CQRS\Products\Handler\QueryHandler\" />
+    <Folder Include="CQRS\Products\Query\Response\" />
+    <Folder Include="CQRS\Products\Query\Request\" />
+    <Folder Include="Validations\ProductValidations\" />
   </ItemGroup>
 
 </Project>

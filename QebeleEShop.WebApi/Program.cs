@@ -23,11 +23,11 @@ builder.Services.AddSwaggerGen(c =>
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
-        Type = SecuritySchemeType.ApiKey,   // ?? Http yox, ApiKey
+        Type = SecuritySchemeType.ApiKey, 
         Scheme = "Bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Description = "Sad?c? tokeni daxil edin (Bearer yazma?a ehtiyac yoxdur)"
+        Description = "tokeni daxil edin"
     });
 
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
