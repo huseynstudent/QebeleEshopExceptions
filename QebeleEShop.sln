@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QebeleEShop.Application", "QebeleEShop.Application\QebeleEShop.Application.csproj", "{5ED366C7-A1AC-44BE-8B3D-3C5E74BD0B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QebeleEShop.Common", "QebeleEShop.Common\QebeleEShop.Common.csproj", "{F9833C28-6BA2-422C-A5D4-A9C46F572114}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QebeleEShop.DAL", "QebeleEShop.DAL\QebeleEShop.DAL.csproj", "{92DBB6F1-8FCD-4872-B85F-44F7DAFEC2F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QebeleEShop.Domain", "QebeleEShop.Domain\QebeleEShop.Domain.csproj", "{29652328-393D-484A-96F9-9C6F4E3A141A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QebeleEShop.Repository", "QebeleEShop.Repository\QebeleEShop.Repository.csproj", "{2BF6A090-4E33-40B0-926D-0CA43C2EF785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QebeleEShop.WebApi", "QebeleEShop.WebApi\QebeleEShop.WebApi.csproj", "{985D05DB-E0D1-4414-8DA7-89F7BDD612E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ED366C7-A1AC-44BE-8B3D-3C5E74BD0B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED366C7-A1AC-44BE-8B3D-3C5E74BD0B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED366C7-A1AC-44BE-8B3D-3C5E74BD0B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED366C7-A1AC-44BE-8B3D-3C5E74BD0B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9833C28-6BA2-422C-A5D4-A9C46F572114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9833C28-6BA2-422C-A5D4-A9C46F572114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9833C28-6BA2-422C-A5D4-A9C46F572114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9833C28-6BA2-422C-A5D4-A9C46F572114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92DBB6F1-8FCD-4872-B85F-44F7DAFEC2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DBB6F1-8FCD-4872-B85F-44F7DAFEC2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DBB6F1-8FCD-4872-B85F-44F7DAFEC2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DBB6F1-8FCD-4872-B85F-44F7DAFEC2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29652328-393D-484A-96F9-9C6F4E3A141A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29652328-393D-484A-96F9-9C6F4E3A141A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29652328-393D-484A-96F9-9C6F4E3A141A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29652328-393D-484A-96F9-9C6F4E3A141A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF6A090-4E33-40B0-926D-0CA43C2EF785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF6A090-4E33-40B0-926D-0CA43C2EF785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF6A090-4E33-40B0-926D-0CA43C2EF785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF6A090-4E33-40B0-926D-0CA43C2EF785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985D05DB-E0D1-4414-8DA7-89F7BDD612E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985D05DB-E0D1-4414-8DA7-89F7BDD612E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985D05DB-E0D1-4414-8DA7-89F7BDD612E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985D05DB-E0D1-4414-8DA7-89F7BDD612E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B98E5A8-4492-41DC-9589-7D44D2D44EE9}
+	EndGlobalSection
+EndGlobal
